@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfiniteTerrain", "InfiniteTerrain.csproj", "{1FA787A8-8709-C8DA-BB6F-4A714769637D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfiniteTerrain.Plugins", "InfiniteTerrain.Plugins.csproj", "{0429A50F-5644-1DB0-CA94-52D6B3DF31EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfiniteTerrain.Editor.Plugins", "InfiniteTerrain.Editor.Plugins.csproj", "{6D32315A-D09C-053B-7831-376F1AD4BDCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FA787A8-8709-C8DA-BB6F-4A714769637D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA787A8-8709-C8DA-BB6F-4A714769637D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA787A8-8709-C8DA-BB6F-4A714769637D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA787A8-8709-C8DA-BB6F-4A714769637D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0429A50F-5644-1DB0-CA94-52D6B3DF31EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0429A50F-5644-1DB0-CA94-52D6B3DF31EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0429A50F-5644-1DB0-CA94-52D6B3DF31EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0429A50F-5644-1DB0-CA94-52D6B3DF31EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D32315A-D09C-053B-7831-376F1AD4BDCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D32315A-D09C-053B-7831-376F1AD4BDCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D32315A-D09C-053B-7831-376F1AD4BDCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D32315A-D09C-053B-7831-376F1AD4BDCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
