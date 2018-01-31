@@ -4,7 +4,7 @@ using System.Collections;
 public class TrackerObject : MonoBehaviour
 {
     // Update is called once per frame
-    private void Start()
+    private void Awake()
     {
         GameMaster.gameMaster.TrackerObject = gameObject;
     }

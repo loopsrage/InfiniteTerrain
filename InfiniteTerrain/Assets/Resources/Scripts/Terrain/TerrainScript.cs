@@ -38,7 +38,7 @@ public class TerrainScript : MonoBehaviour
                     Vector3 Pos = new Vector3(transform.position.x + terrainSettings.MapSize.x,
                         transform.position.y,
                         transform.position.z);
-                    if (!GameMaster.gameMaster.terrainManager.ExistingTerrains.Contains(Pos))
+                    if (!GameMaster.gameMaster.terrainManager.TerrainPositions.ContainsKey(Pos))
                     {
                         GameObject NewTerrain = TerrainExtensions.CreateTerrain(Pos, terrain, TerrainExtensions.Direction.Right);
                         Neighbors.Add(TerrainExtensions.Direction.Right, NewTerrain);
@@ -54,7 +54,7 @@ public class TerrainScript : MonoBehaviour
                     Vector3 Pos = new Vector3(transform.position.x,
                         transform.position.y,
                         transform.position.z + terrainSettings.MapSize.z);
-                    if (!GameMaster.gameMaster.terrainManager.ExistingTerrains.Contains(Pos))
+                    if (!GameMaster.gameMaster.terrainManager.TerrainPositions.ContainsKey(Pos))
                     {
                         GameObject NewTerrain = TerrainExtensions.CreateTerrain(Pos, terrain, TerrainExtensions.Direction.UP);
                         Neighbors.Add(TerrainExtensions.Direction.UP, NewTerrain);
@@ -70,7 +70,7 @@ public class TerrainScript : MonoBehaviour
                     Vector3 Pos = new Vector3(transform.position.x - terrainSettings.MapSize.x,
                         transform.position.y,
                         transform.position.z);
-                    if (!GameMaster.gameMaster.terrainManager.ExistingTerrains.Contains(Pos))
+                    if (!GameMaster.gameMaster.terrainManager.TerrainPositions.ContainsKey(Pos))
                     {
                         GameObject NewTerrain = TerrainExtensions.CreateTerrain(Pos, terrain, TerrainExtensions.Direction.Left);
                         Neighbors.Add(TerrainExtensions.Direction.Left, NewTerrain);
@@ -86,7 +86,7 @@ public class TerrainScript : MonoBehaviour
                     Vector3 Pos = new Vector3(transform.position.x,
                         transform.position.y,
                         transform.position.z - terrainSettings.MapSize.z);
-                    if (!GameMaster.gameMaster.terrainManager.ExistingTerrains.Contains(Pos))
+                    if (!GameMaster.gameMaster.terrainManager.TerrainPositions.ContainsKey(Pos))
                     {
                         GameObject NewTerrain = TerrainExtensions.CreateTerrain(Pos, terrain, TerrainExtensions.Direction.Down);
                         Neighbors.Add(TerrainExtensions.Direction.Down, NewTerrain);

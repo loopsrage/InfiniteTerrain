@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TerrainManager : ScriptableObject
 {
+    public Dictionary<Vector3, GameObject> TerrainPositions = new Dictionary<Vector3, GameObject>();
     public List<GameObject> Terrains = new List<GameObject>();
     public List<Vector3> ExistingTerrains = new List<Vector3>();
 }
